@@ -12,10 +12,12 @@
 * [User Permissions](#user_permissions)
 * [Data File and Updates](#datafile)
 
+<a id="introduction">
 ## Introduction
 This tutorial provides a basic overview of how Databases and Users in ZeroNet are handled so that both users and developers will understand them as a fundamental part of all zites on ZeroNet. Not only will this tutorial cover the purpose of Databases and Users in general, but also how each one is handled within each zite, how they connect to each other, and how they are fundamental in each other's functioning.
 
 First we will start with Users, then we will move onto Databases.
+</a>
 
 ## Users
 ZeroNet uses Certificate Authorities to manage and verify users. With this, there is no need to remember or manage passwords, which makes the network stronger and safer as a whole. We will discover not only the way in which ZeroNet achieves a simple yet strong system, but how it allows zites to associate a certain level of trustworthiness by the use of Certificate Authorities (known as ID Providers within the network). We will also learn about the different methods employed by these Certificate Authorities and how they are used within zites to associate data with a user ID. Finally, we will go over how ZeroNet is able to very easily verify that a user belongs to a given ID Provider, which is in turn then used to verify the data of that user.
